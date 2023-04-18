@@ -7,7 +7,7 @@
 #Completar o programa nos pontos indicados com   ## /* XXXX */
 
 # Import socket module
-from socket import * 
+from socket import socket, AF_INET, SOCK_STREAM
 import sys # In order to terminate the program
 
 # Create a TCP server socket

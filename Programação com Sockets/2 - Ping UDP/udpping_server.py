@@ -2,7 +2,7 @@
 # We will need the following module to generate randomized lost packets
 
 import random
-from socket import *
+from socket import socket, AF_INET, SOCK_DGRAM
 
 # Create a UDP socket
 # Notice the use of SOCK_DGRAM for UDP packets
